@@ -1,0 +1,58 @@
+/* LoginEffect.css */
+.login-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .login-images.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-50%);
+    /* Add other animations or styles as needed */
+  }
+  
+  .login-images img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    border-radius: 50%;
+    /* Add other styles as needed */
+  }
+  .login-button {
+    margin-right: 20px; /* Add margin to position the button */
+    /* Add other styles as needed */
+  }
+
+
+  
+
+.login-button {
+  /* Add any necessary styling for the login button container */
+}
+
+.login-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjust the gap between images as needed */
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.login-images.show {
+  opacity: 1;
+  visibility: visible;
+  /* Add other animations or styles as needed */
+}
+
+.login-images img {
+  width: 100px; /* Adjust size as needed */
+  height: 100px;
+  border-radius: 50%;
+  /* Add other styles as needed */
+}
