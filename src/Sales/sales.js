@@ -697,7 +697,7 @@ useEffect(() => {
       </Dialog>
       {/* Void button and dialog */}
       <Button variant="contained" style={{ backgroundColor: '#178CA4', marginRight: '20px' }} onClick={handleOpenVoidDialog}>Search Bill</Button>
-      <Dialog open={openVoidDialog} onClose={handleCloseVoidDialog}>
+      <Dialog open={openVoidDialog} onClose={handleCloseVoidDialog} maxWidth="xl" fullWidth >
         <DialogTitle>Search Bill</DialogTitle>
         <DialogContent>
           <VoidBill />
